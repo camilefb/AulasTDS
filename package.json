@@ -1,0 +1,23 @@
+{
+  "name": "lojavirtual",
+  "version": "1.0.0",
+  "description": "Projeto para uma loja virtual\r Criado um chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camilefb/LojaVirtual.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camilefb/LojaVirtual/issues"
+  },
+  "homepage": "https://github.com/camilefb/LojaVirtual#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}

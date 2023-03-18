@@ -1,0 +1,54 @@
+h1{
+    color: red;
+}
+
+@media(min-width: 576px){
+    h1{
+        color: green;
+    }
+}
+
+.btn-primary{
+    background-color: red;
+}
+
+.container{
+    background-color: #c9c9c9;
+    border: 5px dotted blue;
+    padding: 10px;
+    margin-bottom: 300px;
+}
+.container-fluid{
+    background-color: #c9c9c9;
+}
+.container-sm{
+    background-color: #c9c9c9;
+    margin-bottom: 30px;
+    border: 2px solid blue;
+}
+
+.row{
+    border: 5px solid purple;
+    height: 100px;
+    padding: 10px;
+    margin: 0px;
+}
+.col, .col-4, .col-2, .col-3, .col-6{
+    border: 2px solid red;
+    height: 100%;
+    margin: 0px;
+}
+
+.largura-limitada{
+    height: 250px;
+    /* width: 500px; */
+    border-color: gold;
+}
+
+.largura-limitada .row{
+    height: 100%;
+}
+
+.col-3, .col-6{
+    height: 50px;
+}

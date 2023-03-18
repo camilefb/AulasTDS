@@ -1,0 +1,20 @@
+.container{
+    background-color: darkgray;
+    border: 5px solid green;
+    padding: 0px;
+}
+
+.row{
+    height: 100px;
+    margin: 10px;
+}
+
+.col{
+    border: 2px solid red;
+}
+.impar{
+    background-color: aqua;
+}
+.par{
+    background-color: blueviolet;
+}
