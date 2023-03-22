@@ -1,0 +1,29 @@
+.col-12{
+    margin: 5px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    display: flex;
+}
+i{
+    margin: 15px;
+}
+.confirmacao{
+    border: 1px solid green;
+}
+.confirmacao i{
+    color: green;
+}
+.mensagem{
+    border: 1px solid blue;
+}
+.mensagem i{
+    color: blue;
+}
+.aviso{
+    border: 1px solid red;
+}
+.aviso i{
+    color: red;
+}

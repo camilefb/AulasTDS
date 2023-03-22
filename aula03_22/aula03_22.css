@@ -1,0 +1,25 @@
+body{
+    margin-bottom: 500px;
+}
+.bi{
+    font-size: 40px;
+    color: green;
+    margin: 20px;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+
+
+.testeDiv1, .testeDiv2{
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+    display: inline-block;
+}
+
+
+
