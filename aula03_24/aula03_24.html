@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Formulários</title>
+
+</head>
+<body>
+    <div class="col-4 m-5">
+        <h2>Formulário</h2>
+        <form>
+            <div class="row">
+                <div class="col-6 mb-3">
+                    <label class="form-label">Email:</label>
+                    <input type="email" class="form-control">
+                </div>
+                <div class="col-6 mb-3">
+                    <label class="form-label">Senha:</label>
+                    <input type="password" class="form-control">
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Nome:</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Comentários:</label>
+                <textarea class="form-control" cols="50" rows="5" placeholder="Digite aqui algo"></textarea>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Selecione um estado:</label>
+                <input class="form-select" list="op">
+                <datalist id="op">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="PR">Paraná</option>
+                </datalist>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Selecione um arquivo:</label>
+                <input type="file" class="form-control" multiple>
+            </div>
+
+            <div class="mb-3">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
+    </div>
+    
+
+</body>
+</html>

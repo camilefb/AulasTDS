@@ -1,0 +1,34 @@
+.container{
+    background-color: cadetblue;
+    height: 200px;
+    font-size: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 5px;
+}
+
+.col-12{
+    border: 1px solid black;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.produtos{
+    border: 2px solid black;
+    height: 60%;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-fluid{
+    height: 100%;
+    width: 100%
+}
