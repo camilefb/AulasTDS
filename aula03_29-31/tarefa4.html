@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <script type="text/javascript" src="tarefa4.js"></script>
+
+    <title>Tarefa 4</title>
+
+</head>
+<body>
+    
+    <div class="col-4">
+        <h3>Calculadora</h3>
+        <form>
+            <div class="row">
+                <div class="col-6 mb-3">
+                    <label class="form-label">Número 1: </label>
+                    <input type="text" class="form-control" id="txtNum1">
+                </div>
+                <div class="col-6 mb-3">
+                    <label class="form-label">Número 2: </label>
+                    <input type="text" class="form-control" id="txtNum2">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Operações:</label>
+                <br>
+                <input type="button" class="btn btn-primary" value="+" onclick="somar()">
+                <button type="button" class="btn btn-primary" onclick="subtrair()">-</button>
+                <button type="button" class="btn btn-primary" onclick="multiplicar()">*</button>
+                <button type="button" class="btn btn-primary" onclick="dividir()">/</button>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Resultado: </label>
+                <input type="text" class="form-control" id="txtResult">
+            </div>
+
+        </form>
+    </div>
+
+
+</body>
+</html>

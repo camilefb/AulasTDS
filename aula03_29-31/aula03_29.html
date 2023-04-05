@@ -6,18 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo JavaScript</title>
 
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    
+    
+    <!-- <script type="text/javascript" src="eventosHTML.js"></script> -->
     <script type="text/javascript" src="aula03_29.js"></script>
+
+
 
 </head>
 <body>
-    <h1>Formulário</h1>
+    <h2>Formulário</h2>
     <form>
         <label>Data:</label>
         <input type="text" id="data" onkeypress="mask_date()">
-
     </form>
 
-
+    <div class="m-3">
+        <img src="imagem.jpg" height="100" width="100" id="foto" onmouseover="changeFoto()" onmouseout="changeFoto2()">
+    </div>
 
 </body>
 </html>
