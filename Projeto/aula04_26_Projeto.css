@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica;
+}
+header{
+    background-color: darkorange;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.navbar{
+    background-color: black;
+}
+.navbar a{
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.row{
+    justify-content: center;
+}
+.container{
+    color: #333;
+    padding: 40px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.btn{
+    color: white;
+}
+.btn:hover{
+    background-color: darkorange;
+    color: white;
+}
+.produto{
+    border: 1px solid #777;
+    width: 20rem;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    margin-top: 20px;
+}
