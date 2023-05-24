@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Versão de desenvolvimento -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+</head>
+<body>
+    
+    <div id="app">
+        {{firstName}}
+        {{saudacao()}} 
+
+        <br><br><br>
+        <button v-on:click="incrementa">Clique aqui</button>
+        <p>Quantas vezes foi clicado no botão: {{contador}}</p>
+
+        <br><br>
+        Digite seu nome aqui:
+        <input type="text" v-model:value="nome">
+        <button v-on:click="exibirNome">Clique aqui</button>
+
+        <br><br><br>
+        Número 1: <input type="text" v-model:value="n1"><br>
+        Número 2: <input type="text" v-model:value="n2"><br>
+        <button v-on:click="adicao" >Somar</button><br>
+        <p v-if="flag">Resultado: {{result}}</p>
+        
+    </div>
+
+    <script src="aula05_24.js"></script>
+</body>
+</html>
