@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+.car-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
